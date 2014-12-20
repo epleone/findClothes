@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7DFDF"
+    android:orientation="vertical" >
+    
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/hello"
+	    />
+    <ImageView
+    	android:id="@+id/ivFolder01"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+     	/>
+    
+    <LinearLayout
+     android:layout_marginTop="10pt"
+     android:orientation="horizontal"
+     android:layout_width="wrap_content" 
+	 android:layout_height="wrap_content"
+	 android:layout_gravity="center"
+	    >
+	<ImageButton
+	    android:id="@+id/btnCU"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"	    
+	    android:src="@drawable/cu" />
+
+	<ImageButton
+	    android:id="@+id/btnFast"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:src="@drawable/quick" />
+ </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#F7817F"
+	android:layout_gravity="center">
+	
+    <TextView
+        android:id="@+id/tvBrandName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+        />
+    
+	<ImageSwitcher
+		android:id="@+id/myImageSwitcher"
+		android:layout_width="200dp"
+		android:layout_height="400dp"
+		android:layout_gravity="center"
+		 />
+	<LinearLayout 
+		android:orientation="horizontal" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/butPrevious"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:enabled="false"
+			android:text="上一张图片" />
+		<ImageView
+    	android:id="@+id/ivPicSwitch"
+        android:layout_width="48dp" 
+        android:layout_height="48dp" 
+     	/>
+		<Button
+			android:id="@+id/butNext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:enabled="true"
+			android:text="下一张图片" />
+	</LinearLayout>
+</LinearLayout>
+
+
